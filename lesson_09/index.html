@@ -3,9 +3,7 @@
 <html lang="en">
 
 <head>
-	<!-- Кодування тексту -->
 	<meta charset="UTF-8">
-	<!-- Налаштування в'юпорту (адаптиву, масштабу тощо) -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Підключення окремого файлу стилів -->
 	<link rel="stylesheet" href="css/style.css">
@@ -18,15 +16,40 @@
 		<header class="header">
 		</header>
 		<main class="page">
+			<section class="feature">
+				<div class="feature__container">
+					<div class="feature__items">
+						<div class="feature__item item-card">
+							<div class="feature__img"><img src="img/track.svg" alt="Free Shipping"></div>
+							<h4 class="feature__title">Free Shipping</h4>
+							<p class="feature__subtitle">Free shipping with discount</p>
+						</div>
+						<div class="feature__item item-card">
+							<div class="feature__img"><img src="img/headset.svg" alt="Great Support 24/7"></div>
+							<h4 class="feature__title">Great Support 24/7</h4>
+							<p class="feature__subtitle">Instant access to Contact</p>
+						</div>
+						<div class="feature__item item-card">
+							<div class="feature__img"><img src="img/products-bag.svg" alt="100% Sucure Payment"></div>
+							<h4 class="feature__title">100% Sucure Payment</h4>
+							<p class="feature__subtitle">We ensure your money is save</p>
+						</div>
+						<div class="feature__item item-card">
+							<div class="feature__img"><img src="img/box.svg" alt="Money-Back Guarantee"></div>
+							<h4 class="feature__title">Money-Back Guarantee</h4>
+							<p class="feature__subtitle">30 days money-back</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.feature -->
 			<section class="products">
 				<div class="products__container">
 					<div class="products__top">
 						<h3 class="products__title title">Featured Products</h3>
 						<!-- /.products__title title -->
 						<a href="" class="products__link link">View All</a>
-						<!-- /.products__link link -->
 					</div>
-					<!-- /.products__top -->
 					<div class="products__body">
 						<div class="products__card card">
 							<div class="card__img">
@@ -135,12 +158,69 @@
 						<a href="" class="categories__link link">View All</a>
 					</div>
 					<div class="categories__body">
-						<div class="categories__item"></div>
-						<!-- /.categories__item -->
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/vegetable.svg" alt="vegetable"></div>
+							<h4 class="categories__title">Vegetables</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/fruits.svg" alt="Fresh Fruit"></div>
+							<h4 class="categories__title">Fresh Fruit</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/fish.svg" alt="Fish"></div>
+							<h4 class="categories__title">Fish</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/meat .svg" alt="Meat"></div>
+							<h4 class="categories__title">Meat</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/soft-drink.svg" alt="Water and Drinks"></div>
+							<h4 class="categories__title">Water and Drinks</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
+						<div class="categories__item item-card item-card--big">
+							<div class="categories__img"><img src="img/categories/snacks.svg" alt="Water and Drinks"></div>
+							<h4 class="categories__title">Snacks</h4>
+							<p class="categories__subtitle">165 Products</p>
+						</div>
 					</div>
-					<!-- /.categories__body -->
 				</div>
 			</section>
+			<section class="choose">
+				<div class="choose__container">
+					<div class="choose__column">
+						<div class="choose__img"><img src="img/image.jpg" alt="image"></div>
+						<div class="choose__img choose__img--big">
+							<img src="img/image-big.jpg" alt="image-big">
+						</div>
+					</div>
+					<div class="choose__column">
+						<h3 class="choose__title title">100% Trusted Organic Food Store</h3>
+						<div class="choose__item">
+							<h5 class="choose__label">Healthy & natural food for lovers of healthy food.</h5>
+							<!-- /.choose__label -->
+							<p class="choose__text">Ut quis tempus erat. Phasellus euismod bibendum magna non tristique. Pellentesque semper vestibulum elit sed condimentum. Nunc pretium fermentum interdum.</p>
+							<!-- /.choose__text -->
+						</div>
+						<div class="choose__item">
+							<h5 class="choose__label">Every day fresh and quality products for you.</h5>
+							<!-- /.choose__label -->
+							<p class="choose__text">Maecenas vehicula a justo quis laoreet. Sed in placerat nibh, a posuere ex. Morbi sem neque, aliquam sed orci et, rhoncus lobortis felis. Sed vestibulum nisl sit amet sapien.</p>
+							<!-- /.choose__text -->
+						</div>
+						<a href="#" class="choose__link link">Shop Now</a>
+						<!-- /.choose__link link -->
+					</div>
+					<!-- /.choose__column -->
+				</div>
+				<!-- /.__container -->
+			</section>
+			<!-- /.choose -->
 		</main>
 		<footer class="footer">
 		</footer>
@@ -148,31 +228,3 @@
 </body>
 
 </html>
-<!-- Часті слова -->
-<!-- 
-						container - обмежуючий контейнер (block__container)
-						body, content - головна частина блоку (block__body)
-						row - рядок
-						column - колонка
-						link - посилання
-						title - заголовок
-						sub-title - підзаголовок
-						label - ще заголовок
-						text - текст
-						list - список
-						items - багато якихось елементів
-						item - будь-що
-						menu
-						block
-						button
-						picture, image, img
-						section
-						article
-						unit
-						actions, action
-						value
-						search
-						form
-						page
-						box
-					-->
