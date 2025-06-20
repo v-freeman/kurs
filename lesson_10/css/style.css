@@ -18,7 +18,7 @@ body {
 
 /*==carts==================================*/
 .carts {
-	margin: 100px;
+	padding-top: 50px;
 }
 
 .card {
@@ -28,6 +28,7 @@ body {
 	border: 1px solid #E6E6E6;
 	background: #FFF;
 	overflow: hidden;
+	margin: 0 auto;
 }
 
 .card:hover {
@@ -124,4 +125,92 @@ body {
 
 .card__bag:hover {
 	background-color: #00B207;
+}
+
+/*==platform==================================*/
+.platform {
+	background-image: url("/img/bag-blue.svg");
+	margin: 200px 0;
+	color: #fff;
+}
+
+.platform__top {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-left: 128px;
+}
+
+
+.platform__img {
+	width: 430px;
+	height: 548px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
+	background-color: #FFF;
+}
+
+
+.platform__img img {
+	max-width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+
+.platform__img-top {
+	margin-top: -41px;
+}
+
+/* .platform__inner */
+.platform__inner {
+	max-width: 602px;
+	margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+/* .platform__title */
+.platform__title {
+	margin-bottom: 20px;
+}
+
+/* .platform__text */
+.platform__text {
+	max-width: 437px;
+	margin-bottom: 39px;
+}
+
+/* .platform__button */
+.platform__button {}
+
+/* .platform__bottom */
+.platform__bottom {}
+
+
+.title {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.button {
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 60px;
+	background: #F35B09;
+	width: 256px;
+	padding: 22px 26px;
+}
+
+/*==footer==================================*/
+.footer {
+	height: 100px;
+
 }
